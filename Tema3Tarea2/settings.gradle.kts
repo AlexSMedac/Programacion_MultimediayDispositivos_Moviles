@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Tema 3. Tarea 2"
 include(":app")
- 
+include(":app:tema4t1-layouts")
