@@ -32,31 +32,37 @@
         <View
             android:id="@+id/view33"
             android:layout_width="200px"
-            android:layout_height="200px" />
+            android:layout_height="200px"
+            android:layout_gravity="left|center_vertical" />
 
         <View
             android:id="@+id/view32"
             android:layout_width="200px"
-            android:layout_height="200px" />
+            android:layout_height="200px"
+            android:layout_gravity="center|center_vertical" />
 
         <View
             android:id="@+id/view31"
             android:layout_width="200px"
-            android:layout_height="200px" />
+            android:layout_height="200px"
+            android:layout_gravity="right|center_vertical" />
 
         <View
             android:id="@+id/view30"
             android:layout_width="200px"
-            android:layout_height="200px" />
+            android:layout_height="200px"
+            android:layout_gravity="bottom|left" />
 
         <View
             android:id="@+id/view29"
             android:layout_width="200px"
-            android:layout_height="200px" />
+            android:layout_height="200px"
+            android:layout_gravity="bottom|center" />
 
         <View
             android:id="@+id/view28"
             android:layout_width="200px"
-            android:layout_height="200px" />
+            android:layout_height="200px"
+            android:layout_gravity="bottom|right" />
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
