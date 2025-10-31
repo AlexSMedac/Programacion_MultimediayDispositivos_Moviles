@@ -51,13 +51,6 @@
             android:layout_weight="1" >
 
             <View
-                android:id="@+id/view25"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#3F51B5" />
-
-            <View
                 android:id="@+id/view24"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -68,14 +61,14 @@
                 android:id="@+id/view20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="1.5"
                 android:background="#03A9F4" />
 
             <View
                 android:id="@+id/view16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="1.5"
                 android:background="#00BCD4" />
         </TableRow>
 
@@ -88,14 +81,14 @@
                 android:id="@+id/view26"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="1.5"
                 android:background="#009688" />
 
             <View
                 android:id="@+id/view17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="1.5"
                 android:background="#4CAF50" />
 
             <View
@@ -105,12 +98,6 @@
                 android:layout_weight="1"
                 android:background="#8BC34A" />
 
-            <View
-                android:id="@+id/view22"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#CDDC39" />
         </TableRow>
 
     </TableLayout>
