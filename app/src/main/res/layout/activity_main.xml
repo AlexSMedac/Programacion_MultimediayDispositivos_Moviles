@@ -45,25 +45,35 @@
                 android:id="@+id/view8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#090606" />
 
             <View
                 android:id="@+id/view9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#FFFFFF" />
 
             <View
                 android:id="@+id/view10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#000000" />
 
             <View
-                android:id="@+id/view11"
+                android:id="@+id/view13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
+
+            <View
+                android:id="@+id/view14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#0D0C0C" />
         </LinearLayout>
 
     </LinearLayout>
