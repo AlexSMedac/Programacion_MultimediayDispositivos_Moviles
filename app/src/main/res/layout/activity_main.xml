@@ -7,98 +7,56 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TableLayout
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1" >
+        <View
+            android:id="@+id/view36"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_gravity="center|top" />
 
-            <View
-                android:id="@+id/view23"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#F44336" />
+        <View
+            android:id="@+id/view35"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_gravity="top|left" />
 
-            <View
-                android:id="@+id/view19"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#E91E63" />
+        <View
+            android:id="@+id/view34"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_gravity="right|top" />
 
-            <View
-                android:id="@+id/view18"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#9C27B0" />
+        <View
+            android:id="@+id/view33"
+            android:layout_width="200px"
+            android:layout_height="200px" />
 
-            <View
-                android:id="@+id/view15"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#673AB7" />
-        </TableRow>
+        <View
+            android:id="@+id/view32"
+            android:layout_width="200px"
+            android:layout_height="200px" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1" >
+        <View
+            android:id="@+id/view31"
+            android:layout_width="200px"
+            android:layout_height="200px" />
 
-            <View
-                android:id="@+id/view24"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#2196F3" />
+        <View
+            android:id="@+id/view30"
+            android:layout_width="200px"
+            android:layout_height="200px" />
 
-            <View
-                android:id="@+id/view20"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.5"
-                android:background="#03A9F4" />
+        <View
+            android:id="@+id/view29"
+            android:layout_width="200px"
+            android:layout_height="200px" />
 
-            <View
-                android:id="@+id/view16"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.5"
-                android:background="#00BCD4" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1" >
-
-            <View
-                android:id="@+id/view26"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.5"
-                android:background="#009688" />
-
-            <View
-                android:id="@+id/view17"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.5"
-                android:background="#4CAF50" />
-
-            <View
-                android:id="@+id/view21"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#8BC34A" />
-
-        </TableRow>
-
-    </TableLayout>
+        <View
+            android:id="@+id/view28"
+            android:layout_width="200px"
+            android:layout_height="200px" />
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
