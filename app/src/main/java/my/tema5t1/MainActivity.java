@@ -1,6 +1,9 @@
 package my.tema5t1;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Switch;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +12,11 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+
+    private EditText tCorreo;
+    private EditText tContraseña;
+    private Button bContinuar;
+    private Switch  sRecordar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
