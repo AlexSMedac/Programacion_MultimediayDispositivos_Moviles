@@ -15,7 +15,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="375dp" />
+        tools:layout_editor_absoluteY="327dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -33,8 +33,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="272dp" />
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="230dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -42,14 +42,22 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="449dp" />
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="376dp" />
 
-    <CheckBox
-        android:id="@+id/checkBox"
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckBox"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="533dp" />
+        android:text="Continuar"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recordar contraseña"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="469dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
