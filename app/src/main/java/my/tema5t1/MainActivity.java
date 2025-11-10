@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Switch;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
     private EditText tContraseña;
     private Button bContinuar;
     private Switch  sRecordar;
+
+    private TextView tvMensaje;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         tContraseña = findViewById(R.id.etContraseña);
         bContinuar = findViewById(R.id.bContinuar);
         sRecordar = findViewById(R.id.sRecordar);
+        tvMensaje = findViewById(R.id.tvMensaje);
 
         bContinuar.setOnClickListener( v -> {
 
@@ -41,8 +45,11 @@ public class MainActivity extends AppCompatActivity {
 
             if (correo == "correo@correo.com" && contraseña == "123") {
 
+                tvMensaje.setText("Usuario y contraseña correctos");
             }
-
+            else {
+                tvMensaje.setText("Usuario y/o contraseña incorrectos");
+            }
         });
     }
 }
