@@ -64,4 +64,12 @@
         android:text="Recordar contraseña"
         tools:layout_editor_absoluteX="117dp"
         tools:layout_editor_absoluteY="469dp" />
+
+    <TextView
+        android:id="@+id/tvMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="629dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

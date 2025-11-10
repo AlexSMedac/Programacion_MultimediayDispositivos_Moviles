@@ -28,5 +28,21 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        tCorreo = findViewById(R.id.etCorreo);
+        tContraseña = findViewById(R.id.etContraseña);
+        bContinuar = findViewById(R.id.bContinuar);
+        sRecordar = findViewById(R.id.sRecordar);
+
+        bContinuar.setOnClickListener( v -> {
+
+            String correo = tCorreo.getText().toString();
+            String contraseña = tContraseña.getText().toString();
+
+            if (correo == "correo@correo.com" && contraseña == "123") {
+
+            }
+
+        });
     }
 }
