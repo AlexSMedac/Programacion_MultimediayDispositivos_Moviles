@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
             String correo = tCorreo.getText().toString();
             String contraseña = tContraseña.getText().toString();
 
+            Boolean recordar = sRecordar.isChecked();
+
             if (correo.equals("correo@correo.com")  && contraseña.equals("123")) {
 
                 tvMensaje.setText("Usuario y contraseña correctos");
