@@ -22,11 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerViewSeries = findViewById(R.id.recyclerSeries);
 
-        // Crear lista de series usando los nombres de drawable correctos
         ArrayList<Series> listaSeries = new ArrayList<>();
-        listaSeries.add(new Series("Breaking Bad", "Drama / Crimen", R.drawable.BB));
-        listaSeries.add(new Series("Stranger Things", "Ciencia Ficción / Terror", R.drawable.ST));
-        listaSeries.add(new Series("The Office", "Comedia", R.drawable.TO));
+        listaSeries.add(new Series("Breaking Bad", "Drama / Crimen", R.drawable.bb));
+        listaSeries.add(new Series("Stranger Things", "Ciencia Ficción / Terror", R.drawable.st));
+        listaSeries.add(new Series("The Office", "Comedia", R.drawable.to));
 
         serieAdapter = new SerieAdapter(this, listaSeries);
 
