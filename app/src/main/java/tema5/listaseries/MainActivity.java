@@ -16,16 +16,17 @@ public class MainActivity extends AppCompatActivity {
 
     @SuppressLint("MissingInflatedId")
     @Override
-    protected <Serie> void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         recyclerViewSeries = findViewById(R.id.recyclerSeries);
 
-        ArrayList<Serie> listaSeries = new ArrayList<>();
-        listaSeries.add(new Serie("Breaking Bad", "Drama / Crimen", R.drawable.breaking_bad));
-        listaSeries.add(new Serie("Stranger Things", "Ciencia Ficción / Terror", R.drawable.stranger_things));
-        listaSeries.add(new Serie("The Office", "Comedia", R.drawable.the_office));
+        // Crear lista de series usando los nombres de drawable correctos
+        ArrayList<Series> listaSeries = new ArrayList<>();
+        listaSeries.add(new Series("Breaking Bad", "Drama / Crimen", R.drawable.BB));
+        listaSeries.add(new Series("Stranger Things", "Ciencia Ficción / Terror", R.drawable.ST));
+        listaSeries.add(new Series("The Office", "Comedia", R.drawable.TO));
 
         serieAdapter = new SerieAdapter(this, listaSeries);
 
