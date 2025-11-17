@@ -77,10 +77,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Cargar sonidos cortos desde res/raw
-        sound1 = soundPool.load(this, R.raw.sonido1, 1);
-        sound2 = soundPool.load(this, R.raw.sonido2, 1);
-        sound3 = soundPool.load(this, R.raw.sonido3, 1);
-        sound4 = soundPool.load(this, R.raw.sonido4, 1);
+        sound1 = soundPool.load(this, R.raw.moto, 1);
+        sound2 = soundPool.load(this, R.raw.disparo, 1);
+        sound3 = soundPool.load(this, R.raw.godzilla, 1);
+        sound4 = soundPool.load(this, R.raw.navidad, 1);
 
         // Botones de sonidos
         Button btnSound1 = findViewById(R.id.btnSound1);

@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- ToolBar con título de la app -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="0dp"
@@ -17,7 +16,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Nombre de la canción -->
     <TextView
         android:id="@+id/tvSongTitle"
         android:layout_width="0dp"
@@ -30,7 +28,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="24dp"/>
 
-    <!-- Barra de progreso -->
     <SeekBar
         android:id="@+id/seekBar"
         android:layout_width="0dp"
@@ -40,7 +37,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="24dp"/>
 
-    <!-- Tiempo de reproducción -->
     <TextView
         android:id="@+id/tvCurrentTime"
         android:layout_width="wrap_content"
@@ -49,7 +45,6 @@
         app:layout_constraintTop_toBottomOf="@id/seekBar"
         app:layout_constraintStart_toStartOf="@id/seekBar"/>
 
-    <!-- Tiempo total de la canción -->
     <TextView
         android:id="@+id/tvTotalTime"
         android:layout_width="wrap_content"
@@ -58,7 +53,6 @@
         app:layout_constraintTop_toBottomOf="@id/seekBar"
         app:layout_constraintEnd_toEndOf="@id/seekBar"/>
 
-    <!-- Botón Play -->
     <Button
         android:id="@+id/btnPlay"
         android:layout_width="wrap_content"
@@ -69,7 +63,6 @@
         android:layout_marginTop="24dp"
         android:layout_marginStart="48dp"/>
 
-    <!-- Botón Pause -->
     <Button
         android:id="@+id/btnPause"
         android:layout_width="wrap_content"
@@ -80,12 +73,11 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="48dp"/>
 
-    <!-- Botones de sonidos cortos -->
     <Button
         android:id="@+id/btnSound1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sonido 1"
+        android:text="Moto"
         app:layout_constraintTop_toBottomOf="@id/btnPlay"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="24dp"
@@ -95,7 +87,7 @@
         android:id="@+id/btnSound2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sonido 2"
+        android:text="Disparo"
         app:layout_constraintTop_toBottomOf="@id/btnPlay"
         app:layout_constraintStart_toEndOf="@id/btnSound1"
         android:layout_marginTop="24dp"
@@ -105,7 +97,7 @@
         android:id="@+id/btnSound3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sonido 3"
+        android:text="Godzilla"
         app:layout_constraintTop_toBottomOf="@id/btnPlay"
         app:layout_constraintStart_toEndOf="@id/btnSound2"
         android:layout_marginTop="24dp"
@@ -115,7 +107,7 @@
         android:id="@+id/btnSound4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sonido 4"
+        android:text="Navidad"
         app:layout_constraintTop_toBottomOf="@id/btnPlay"
         app:layout_constraintStart_toEndOf="@id/btnSound3"
         android:layout_marginTop="24dp"
