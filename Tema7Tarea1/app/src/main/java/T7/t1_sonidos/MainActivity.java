@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Reproductor de música
         Button btnPlay = findViewById(R.id.btnPlay);
         Button btnPause = findViewById(R.id.btnPause);
         TextView tvSongTitle = findViewById(R.id.tvSongTitle);
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         seekBar = findViewById(R.id.seekBar);
 
         mediaPlayer = MediaPlayer.create(this, R.raw.cancion);
-        tvSongTitle.setText("Mi Canción");
+        tvSongTitle.setText("Better off alone");
 
         seekBar.setMax(mediaPlayer.getDuration());
         tvTotalTime.setText(formatTime(mediaPlayer.getDuration()));
@@ -62,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
             public void onStopTrackingTouch(SeekBar seekBar) {}
         });
 
-        // --- Configurar SoundPool ---
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             AudioAttributes audioAttributes = new AudioAttributes.Builder()
                     .setUsage(AudioAttributes.USAGE_MEDIA)
@@ -76,13 +74,11 @@ public class MainActivity extends AppCompatActivity {
             soundPool = new SoundPool(4, android.media.AudioManager.STREAM_MUSIC, 0);
         }
 
-        // Cargar sonidos cortos desde res/raw
         sound1 = soundPool.load(this, R.raw.moto, 1);
         sound2 = soundPool.load(this, R.raw.disparo, 1);
         sound3 = soundPool.load(this, R.raw.godzilla, 1);
         sound4 = soundPool.load(this, R.raw.navidad, 1);
 
-        // Botones de sonidos
         Button btnSound1 = findViewById(R.id.btnSound1);
         Button btnSound2 = findViewById(R.id.btnSound2);
         Button btnSound3 = findViewById(R.id.btnSound3);
