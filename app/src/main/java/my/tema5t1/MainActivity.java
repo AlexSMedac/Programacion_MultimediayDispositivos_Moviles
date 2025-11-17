@@ -1,5 +1,6 @@
 package my.tema5t1;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -48,9 +49,11 @@ public class MainActivity extends AppCompatActivity {
             if (correo.equals("correo@correo.com")  && contraseña.equals("123")) {
 
                 tvMensaje.setText("Usuario y contraseña correctos");
+                tvMensaje.setTextColor(Color.GREEN);
             }
             else {
                 tvMensaje.setText("Usuario y/o contraseña incorrectos");
+                tvMensaje.setTextColor(Color.RED);
             }
         });
     }
